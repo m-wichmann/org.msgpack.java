@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MsgPackJava
+Bundle-SymbolicName: MsgPackJava
+Bundle-Version: 0.8.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.msgpack.core;uses:="org.msgpack.value,org.msgpack.core.buffer",
+ org.msgpack.core.annotations,
+ org.msgpack.core.buffer;uses:="sun.misc",
+ org.msgpack.value;uses:="org.msgpack.core,Map",
+ org.msgpack.value.impl;uses:="org.msgpack.value,org.msgpack.core"
+Bundle-Vendor: org.msgpack
