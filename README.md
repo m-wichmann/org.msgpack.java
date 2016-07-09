@@ -1,5 +1,4 @@
-MsgPack Java
-============
+# MsgPack Java
 
 This is a repackaging of the MessagePack library for Java as a Eclipse Plugin.
 I can't take any credit for any Code in this repo!
